@@ -1,0 +1,66 @@
+ValueError: Input is not an integer.
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 4
+Please enter the integer value for side b: 4
+Please enter the integer value for side c: 4
+Equilateral
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 3
+Please enter the integer value for side b: 4
+Scalene and Right
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 5
+Please enter the integer value for side b: 6
+Please enter the integer value for side c: 7
+Scalene
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 4
+Please enter the integer value for side b: 4
+Please enter the integer value for side c: 5
+Isosceles
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: True
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 36, in main
+    sides.append(int(input('Please enter the integer value for side ' + str(['a', 'b', 'c'][i]) + ": ")))
+ValueError: invalid literal for int() with base 10: 'True'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 44, in <module>
+    main()
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 38, in main
+    raise ValueError('Input is not an integer.')
+ValueError: Input is not an integer.
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 4
+Please enter the integer value for side b: five
+Traceback (most recent call last):
+    sides.append(int(input('Please enter the integer value for side ' + str(['a', 'b', 'c'][i]) + ": ")))
+ValueError: invalid literal for int() with base 10: 'five'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 44, in <module>
+    main()
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 38, in main
+    raise ValueError('Input is not an integer.')
+ValueError: Input is not an integer.
+PS C:\Users\ztyle> & C:/Users/ztyle/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py"
+Please enter the integer value for side a: 4
+Please enter the integer value for side b: 5
+Please enter the integer value for side c: 7.8
+Traceback (most recent call last):
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 36, in main
+    sides.append(int(input('Please enter the integer value for side ' + str(['a', 'b', 'c'][i]) + ": ")))
+ValueError: invalid literal for int() with base 10: '7.8'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 44, in <module>
+    main()
+  File "c:/Users/ztyle/Documents/SSW 567/HW01/SSW567_Zach_George_HW01_Main.py", line 38, in main
+    raise ValueError('Input is not an integer.')
+ValueError: Input is not an integer.
