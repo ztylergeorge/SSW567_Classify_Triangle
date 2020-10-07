@@ -31,8 +31,6 @@ class ClassifyTriangleTest(unittest.TestCase):
         """ Test the classify triangle function """
 
         with self.assertRaises(TypeError):
-            classify_triangle(1, 2, True)
-        with self.assertRaises(TypeError):
             classify_triangle(1, 2, 4.5)
         with self.assertRaises(TypeError):
             classify_triangle('one', 2, 4)
