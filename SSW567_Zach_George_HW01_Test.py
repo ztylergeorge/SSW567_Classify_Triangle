@@ -18,7 +18,7 @@ Based off of the criteria, these are sufficient test cases.
 """
 
 import unittest
-from SSW567_Zach_George_HW01_Main import classify_triangle
+from ssw567_zach_george_hw01_main import classify_triangle
 
 
 class ClassifyTriangleTest(unittest.TestCase):
@@ -26,7 +26,7 @@ class ClassifyTriangleTest(unittest.TestCase):
 
     """ Define the unittest class for the clarify triangle function """
 
-    def test_classify_triangle(self) -> None:
+    def test_classify_triangle_errors(self) -> None:
 
         """ Test the classify triangle function """
 
@@ -40,12 +40,13 @@ class ClassifyTriangleTest(unittest.TestCase):
             classify_triangle(0, 1, 2)
         with self.assertRaises(ValueError):
             classify_triangle(3, -4, 2)
-       
+
+    def test_classify_triangle_outputs(self) -> None:
+    
         self.assertEqual('Equilateral', classify_triangle(4, 4, 4))
         self.assertEqual('Isosceles', classify_triangle(4, 4, 6))
         self.assertEqual('Scalene and Right', classify_triangle(3, 4, 5))
         self.assertEqual('Scalene', classify_triangle(4, 8, 10))
-
 
 if __name__ == "__main__":
     unittest.main(exit=False, verbosity=2)
